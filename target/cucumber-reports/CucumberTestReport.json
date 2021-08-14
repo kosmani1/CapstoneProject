@@ -1,0 +1,188 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7034392902,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Initializer.beforeHooks(Scenario)"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Add and Remove a Mac book from Cart",
+        "description": "",
+        "id": "laptops-and-notebooks;add-and-remove-a-mac-book-from-cart",
+        "after": [
+          {
+            "result": {
+              "duration": 1131003426,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Initializer.afterHooks(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3332078479,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on Retail Website",
+            "match": {
+              "location": "LoginTestStepDef.user_is_on_Retail_Website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 179938775,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User click on Laptop \u0026NoteBook tab",
+            "match": {
+              "location": "LaptopsNoteBooksStepDef.user_click_on_Laptop_NoteBook_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 700209573,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User click on Show all Laptop \u0026NoteBook option",
+            "match": {
+              "location": "LaptopsNoteBooksStepDef.user_click_on_Show_all_Laptop_NoteBook_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6999872900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User click on MacBook  item",
+            "match": {
+              "location": "LaptopsNoteBooksStepDef.user_click_on_MacBook_item()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5234909397,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User click add to Cart button",
+            "match": {
+              "location": "LaptopsNoteBooksStepDef.user_click_add_to_Cart_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 333172226,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User should see a message \u0027Success: You have added MacBook to your shopping cart!\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Success: You have added MacBook to your shopping cart!",
+                  "offset": 27
+                }
+              ],
+              "location": "LaptopsNoteBooksStepDef.user_should_see_a_message_Success_You_have_added_MacBook_to_your_shopping_cart(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 110766540,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User should see \u0027\u003c1 [item(s) - $]602.00\u003e\u0027 showed to the cart",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003c1 [item(s) - $]602.00\u003e",
+                  "offset": 17
+                }
+              ],
+              "location": "LaptopsNoteBooksStepDef.user_should_see_tem_s_showed_to_the_cart(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 125758113,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User click on cart option",
+            "match": {
+              "location": "LaptopsNoteBooksStepDef.user_click_on_cart_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5401368124,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user click on red X button to remove the item from cart",
+            "match": {
+              "location": "LaptopsNoteBooksStepDef.user_click_on_red_X_button_to_remove_the_item_from_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5047566883,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "item should be removed and cart should show \u00270 item(s)\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0 item(s)",
+                  "offset": 45
+                }
+              ],
+              "location": "LaptopsNoteBooksStepDef.item_should_be_removed_and_cart_should_show_item_s(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@laptop"
+          }
+        ]
+      }
+    ],
+    "name": "Laptops and NoteBooks",
+    "description": "",
+    "id": "laptops-and-notebooks",
+    "keyword": "Feature",
+    "uri": "LaptopsNoteBooks.feature"
+  }
+]
